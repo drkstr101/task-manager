@@ -9,14 +9,6 @@
     <%= javascript_include_tag "application", "data-turbo-track": "reload", defer: true %>
   </head>
   <body>
-    <sp-theme
-      theme="spectrum"
-      color="light"
-      scale="medium"
-      style="background-color: var(--spectrum-gray-100)"
-    >
-      <%= render "molecules/top_nav" %>
-      <%= yield %>
-    </sp-theme>
+    <%= yield %>
   </body>
 </html>

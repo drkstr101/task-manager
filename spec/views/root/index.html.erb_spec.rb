@@ -2,6 +2,9 @@
 
 require 'rails_helper'
 
-RSpec.describe 'root/index.html.erb' do
-  pending "add some examples to (or delete) #{__FILE__}"
+RSpec.describe 'root/index' do
+  it 'renders the page title' do
+    render
+    assert_select 'h1', text: 'Home'
+  end
 end
