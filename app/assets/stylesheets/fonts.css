@@ -1,0 +1,318 @@
+@font-face {
+  font-family: 'Adobe Clean';
+  src: local('Adobe Clean Black'), local('AdobeClean-Black'),
+    font-url('subset-AdobeClean-Black.woff2') format('woff2'),
+    font-url('subset-AdobeClean-Black.woff') format('woff'),
+    font-url('subset-AdobeClean-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Adobe Clean';
+  src: local('Adobe Clean Bold'), local('AdobeClean-Bold'),
+    font-url('subset-AdobeClean-Bold.woff2') format('woff2'),
+    font-url('subset-AdobeClean-Bold.woff') format('woff'),
+    font-url('subset-AdobeClean-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Adobe Clean';
+  src: local('Adobe Clean Black Italic'), local('AdobeClean-BlackIt'),
+    font-url('subset-AdobeClean-BlackIt.woff2') format('woff2'),
+    font-url('subset-AdobeClean-BlackIt.woff') format('woff'),
+    font-url('subset-AdobeClean-BlackIt.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Adobe Clean';
+  src: local('Adobe Clean Bold Condensed Italic'), local('AdobeClean-BoldCondIt'),
+    font-url('subset-AdobeClean-BoldCondIt.woff2') format('woff2'),
+    font-url('subset-AdobeClean-BoldCondIt.woff') format('woff'),
+    font-url('subset-AdobeClean-BoldCondIt.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Adobe Clean';
+  src: local('Adobe Clean Bold Italic'), local('AdobeClean-BoldIt'),
+    font-url('subset-AdobeClean-BoldIt.woff2') format('woff2'),
+    font-url('subset-AdobeClean-BoldIt.woff') format('woff'),
+    font-url('subset-AdobeClean-BoldIt.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Adobe Clean';
+  src: local('Adobe Clean Bold Condensed'), local('AdobeClean-BoldCond'),
+    font-url('subset-AdobeClean-BoldCond.woff2') format('woff2'),
+    font-url('subset-AdobeClean-BoldCond.woff') format('woff'),
+    font-url('subset-AdobeClean-BoldCond.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Adobe Clean';
+  src: local('Adobe Clean Bold SemiCondensed'), local('AdobeClean-BoldSemiCn'),
+    font-url('subset-AdobeClean-BoldSemiCn.woff2') format('woff2'),
+    font-url('subset-AdobeClean-BoldSemiCn.woff') format('woff'),
+    font-url('subset-AdobeClean-BoldSemiCn.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Adobe Clean';
+  src: local('Adobe Clean Bold SemiCondensed Italic'), local('AdobeClean-BoldSemiCnIt'),
+    font-url('subset-AdobeClean-BoldSemiCnIt.woff2') format('woff2'),
+    font-url('subset-AdobeClean-BoldSemiCnIt.woff') format('woff'),
+    font-url('subset-AdobeClean-BoldSemiCnIt.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Adobe Clean';
+  src: local('Adobe Clean Condensed'), local('AdobeClean-Cond'),
+    font-url('subset-AdobeClean-Cond.woff2') format('woff2'),
+    font-url('subset-AdobeClean-Cond.woff') format('woff'),
+    font-url('subset-AdobeClean-Cond.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Adobe Clean';
+  src: local('Adobe Clean ExtraBold'), local('AdobeClean-ExtraBold'),
+    font-url('subset-AdobeClean-ExtraBold.woff2') format('woff2'),
+    font-url('subset-AdobeClean-ExtraBold.woff') format('woff'),
+    font-url('subset-AdobeClean-ExtraBold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Adobe Clean';
+  src: local('Adobe Clean Condensed Italic'), local('AdobeClean-CondIt'),
+    font-url('subset-AdobeClean-CondIt.woff2') format('woff2'),
+    font-url('subset-AdobeClean-CondIt.woff') format('woff'),
+    font-url('subset-AdobeClean-CondIt.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Adobe Clean';
+  src: local('Adobe Clean ExtraBold Italic'), local('AdobeClean-ExtraBoldIt'),
+    font-url('subset-AdobeClean-ExtraBoldIt.woff2') format('woff2'),
+    font-url('subset-AdobeClean-ExtraBoldIt.woff') format('woff'),
+    font-url('subset-AdobeClean-ExtraBoldIt.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Adobe Clean';
+  src: local('Adobe Clean Light'), local('AdobeClean-Light'),
+    font-url('subset-AdobeClean-Light.woff2') format('woff2'),
+    font-url('subset-AdobeClean-Light.woff') format('woff'),
+    font-url('subset-AdobeClean-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Adobe Clean';
+  src: local('Adobe Clean Italic'), local('AdobeClean-It'),
+    font-url('subset-AdobeClean-It.woff2') format('woff2'),
+    font-url('subset-AdobeClean-It.woff') format('woff'),
+    font-url('subset-AdobeClean-It.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Adobe Clean';
+  src: local('Adobe Clean Light Italic'), local('AdobeClean-LightIt'),
+    font-url('subset-AdobeClean-LightIt.woff2') format('woff2'),
+    font-url('subset-AdobeClean-LightIt.woff') format('woff'),
+    font-url('subset-AdobeClean-LightIt.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Adobe Clean';
+  src: local('Adobe Clean Medium'), local('AdobeClean-Medium'),
+    font-url('subset-AdobeClean-Medium.woff2') format('woff2'),
+    font-url('subset-AdobeClean-Medium.woff') format('woff'),
+    font-url('subset-AdobeClean-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Adobe Clean';
+  src: local('Adobe Clean SemiCondensed Italic'), local('AdobeClean-SemiCnIt'),
+    font-url('subset-AdobeClean-SemiCnIt.woff2') format('woff2'),
+    font-url('subset-AdobeClean-SemiCnIt.woff') format('woff'),
+    font-url('subset-AdobeClean-SemiCnIt.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Adobe Clean';
+  src: local('Adobe Clean'), local('AdobeClean-Regular'),
+    font-url('subset-AdobeClean-Regular.woff2') format('woff2'),
+    font-url('subset-AdobeClean-Regular.woff') format('woff'),
+    font-url('subset-AdobeClean-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Adobe Clean';
+  src: local('Adobe Clean SemiCondensed'), local('AdobeClean-SemiCn'),
+    font-url('subset-AdobeClean-SemiCn.woff2') format('woff2'),
+    font-url('subset-AdobeClean-SemiCn.woff') format('woff'),
+    font-url('subset-AdobeClean-SemiCn.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Adobe Clean';
+  src: local('Adobe Clean SemiLight Italic'), local('AdobeClean-SemiLightIt'),
+    font-url('subset-AdobeClean-SemiLightIt.woff2') format('woff2'),
+    font-url('subset-AdobeClean-SemiLightIt.woff') format('woff'),
+    font-url('subset-AdobeClean-SemiLightIt.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Adobe Clean';
+  src: local('Adobe Clean SemiLight'), local('AdobeClean-SemiLight'),
+    font-url('subset-AdobeClean-SemiLight.woff2') format('woff2'),
+    font-url('subset-AdobeClean-SemiLight.woff') format('woff'),
+    font-url('subset-AdobeClean-SemiLight.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Adobe Clean Serif';
+  src: local('Adobe Clean Serif Black'), local('AdobeCleanSerif-Black'),
+    font-url('subset-AdobeCleanSerif-Black.woff2') format('woff2'),
+    font-url('subset-AdobeCleanSerif-Black.woff') format('woff'),
+    font-url('subset-AdobeCleanSerif-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Adobe Clean Serif';
+  src: local('Adobe Clean Serif Bold'), local('AdobeCleanSerif-Bold'),
+    font-url('subset-AdobeCleanSerif-Bold.woff2') format('woff2'),
+    font-url('subset-AdobeCleanSerif-Bold.woff') format('woff'),
+    font-url('subset-AdobeCleanSerif-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Adobe Clean Serif';
+  src: local('Adobe Clean Serif Bold Italic'), local('AdobeCleanSerif-BoldIt'),
+    font-url('subset-AdobeCleanSerif-BoldIt.woff2') format('woff2'),
+    font-url('subset-AdobeCleanSerif-BoldIt.woff') format('woff'),
+    font-url('subset-AdobeCleanSerif-BoldIt.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Adobe Clean Serif';
+  src: local('Adobe Clean Serif Black Italic'), local('AdobeCleanSerif-BlackIt'),
+    font-url('subset-AdobeCleanSerif-BlackIt.woff2') format('woff2'),
+    font-url('subset-AdobeCleanSerif-BlackIt.woff') format('woff'),
+    font-url('subset-AdobeCleanSerif-BlackIt.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Adobe Clean Serif';
+  src: local('Adobe Clean Serif Italic'), local('AdobeCleanSerif-It'),
+    font-url('subset-AdobeCleanSerif-It.woff2') format('woff2'),
+    font-url('subset-AdobeCleanSerif-It.woff') format('woff'),
+    font-url('subset-AdobeCleanSerif-It.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Adobe Clean Serif';
+  src: local('Adobe Clean Serif Medium'), local('AdobeCleanSerif-Medium'),
+    font-url('subset-AdobeCleanSerif-Medium.woff2') format('woff2'),
+    font-url('subset-AdobeCleanSerif-Medium.woff') format('woff'),
+    font-url('subset-AdobeCleanSerif-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Adobe Clean Serif';
+  src: local('Adobe Clean Serif Medium Italic'), local('AdobeCleanSerif-MediumIt'),
+    font-url('subset-AdobeCleanSerif-MediumIt.woff2') format('woff2'),
+    font-url('subset-AdobeCleanSerif-MediumIt.woff') format('woff'),
+    font-url('subset-AdobeCleanSerif-MediumIt.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Adobe Clean Serif';
+  src: local('Adobe Clean Serif'), local('AdobeCleanSerif-Regular'),
+    font-url('subset-AdobeCleanSerif-Regular.woff2') format('woff2'),
+    font-url('subset-AdobeCleanSerif-Regular.woff') format('woff'),
+    font-url('subset-AdobeCleanSerif-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
