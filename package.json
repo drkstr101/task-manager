@@ -1,14 +1,27 @@
 {
   "name": "app",
   "private": "true",
-  "dependencies": {
-    "@hotwired/stimulus": "^3.2.2",
-    "@hotwired/turbo-rails": "^7.3.0",
-    "esbuild": "^0.19.2",
-    "sass": "^1.66.1"
-  },
   "scripts": {
     "build": "esbuild app/javascript/*.* --bundle --sourcemap --outdir=app/assets/builds --public-path=/assets",
     "build:css": "sass ./app/assets/stylesheets/application.sass.scss:./app/assets/builds/application.css --no-source-map --load-path=node_modules"
+  },
+  "dependencies": {
+    "@hotwired/stimulus": "^3.2.2",
+    "@hotwired/turbo-rails": "^7.3.0",
+    "@spectrum-css/button": "^11.0.3",
+    "@spectrum-css/page": "^5.0.33",
+    "@spectrum-css/tokens": "^11.3.0",
+    "@spectrum-css/typography": "^5.0.36",
+    "@spectrum-css/vars": "^9.0.8",
+    "@spectrum-web-components/bundle": "^0.37.0",
+    "@spectrum-web-components/theme": "^0.37.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.19.2",
+    "eslint": "^8.48.0",
+    "prettier": "^2.6.2",
+    "stylelint": "^15.10.3",
+    "stylelint-config-standard": "^34.0.0",
+    "sass": "^1.66.1"
   }
 }
