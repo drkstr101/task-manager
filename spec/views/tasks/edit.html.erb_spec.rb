@@ -4,9 +4,7 @@ require 'rails_helper'
 
 RSpec.describe 'tasks/edit' do
   let(:task) do
-    Task.create!(
-      name: 'MyString'
-    )
+    Task.create!(name: 'MyString')
   end
 
   before do

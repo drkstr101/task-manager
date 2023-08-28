@@ -5,12 +5,8 @@ require 'rails_helper'
 RSpec.describe 'tasks/index' do
   before do
     assign(:tasks, [
-             Task.create!(
-               name: 'Name'
-             ),
-             Task.create!(
-               name: 'Name'
-             )
+             Task.create!(name: 'Task one'),
+             Task.create!(name: 'Task two')
            ])
   end
 
