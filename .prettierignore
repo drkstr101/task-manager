@@ -1,8 +1,5 @@
 # Add files here to ignore them from prettier formatting
-/app/assets/builds
-/coverage
+/log
+/node_modules
 /tmp
-node_modules
-.cache
-.next
-.stackbit
+/vendor
